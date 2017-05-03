@@ -31,8 +31,8 @@
       "artifactName": "${productName}-${version}-osx.${ext}",
       "category": "public.app-category.developer-tools",
       "target": [
-        "dmg",
-        "zip"
+        "tar.gz",
+        "dmg"
       ],
       "files": [
         "bin/osx/**/*"
