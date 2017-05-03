@@ -5,3 +5,9 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
   sh -e /etc/init.d/xvfb start
   sleep 3
 fi
+
+npm run build
+npm run test:unit
+npm run lint
+npm run pack
+npm run test:integration
